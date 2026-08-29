@@ -1,4 +1,7 @@
 {
   "startCommand": "emby-server",
-  "port": 8096
-}   
+  "port": 8096,
+  "env": {
+    "PORT": "8096"
+  }
+}     
