@@ -1,4 +1,5 @@
 {
   "type": "container",
-  "port": 8096
+  "port": 8096,
+  "startCommand": "emby-server"
 }   
