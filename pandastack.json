@@ -1,5 +1,5 @@
 {
-  "type": "container",
   "port": 8096,
+  "installCommand": "curl -fsSL https://pkg.emby.media/keys/emby-public.gpg -o /etc/apt/keyrings/emby-public.gpg && curl -fsSL https://pkg.emby.media/apt/emby.sources -o /etc/apt/sources.list.d/emby.sources && apt-get update && apt-get install -y emby-server",
   "startCommand": "emby-server"
 }   
